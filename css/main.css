@@ -1,52 +1,85 @@
 body {
-    	margin: 60px auto;
-    	width: 70%;
-	background-color: #FFF7AA;
+	background-color: #F5F5DD;
+	color: black;
+
 }
 
-nav{
-	background-color: #807515;
+#nav
+{
+	background-color: #B1B17B;
+	font-size: 16px;
+	padding: 10px;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 70px;
+
 }
 
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-	text-align: center;
-	
-	
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}	
-a {
-    text-decoration: none;
-    color: #350037;
-}
 a:hover {
-    text-decoration: underline;
+	color:grey;
 }
+
+a {
+color:black;
+font-style:bold;
+
+}
+
+.x{
+	display: inline;
+	list-style-type: none;
+	padding: 14px 16px;
+}
+
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	text-align: center;
+	padding: 20x;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #350037;
+
+h2 {
+	font-size:20px;
+	
 }
+p  {
+	text-align: center;
+	padding: 20x;
+}
+
+#desc{
+	text-align:left;
+}
+
+#name {
+	text-align:left;
+	
+}
+	
+
 footer {
-    border-top: 1px solid #554D00;
+	background-color: #B1B17B;
+	text-align: center;
     font-size: .8em;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+img {
+	margin-bottom: 50px;
 }
 
-ul.posts li {
-    list-style: none;
+#b {
+	border: 1px solid;
+  padding: 10px;
+  background-image:url(images/tausta.jpg);
+  background-size:cover;
+  margin-bottom: 15px;
 }
+
+#info {
+	margin-top:150px
+}
+
