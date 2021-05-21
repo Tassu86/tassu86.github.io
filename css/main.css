@@ -7,6 +7,7 @@ body {
 .navbar-default
 {
 	background-color: #B1B17B;
+
 }
 
 a:hover {
@@ -64,4 +65,6 @@ p  {
 {
 	margin-bottom:0;
 }
-
+img {
+margin-top: 10px;
+}
