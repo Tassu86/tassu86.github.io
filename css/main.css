@@ -22,7 +22,7 @@ a:hover {
 
 a {
 color:black;
-font-style:bold;
+font-weight:bold;
 
 }
 
@@ -34,7 +34,7 @@ font-style:bold;
 
 h1 {
 	text-align: center;
-	padding: 20x;
+	padding: 10px;
 }
 
 h2 {
@@ -43,7 +43,7 @@ h2 {
 }
 p  {
 	text-align: center;
-	padding: 20x;
+	padding: 10px;
 }
 
 #desc{
@@ -55,17 +55,6 @@ p  {
 	
 }
 	
-
-footer {
-	background-color: #B1B17B;
-	text-align: center;
-    font-size: .8em;
-	clear: both;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-
-}
 
 img {
 	margin-bottom: 50px;
@@ -83,3 +72,7 @@ img {
 	margin-top:150px
 }
 
+#lu
+{
+	margin-bottom:0;
+}
