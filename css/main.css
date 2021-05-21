@@ -74,7 +74,7 @@ img {
 #b {
 	border: 1px solid;
   padding: 10px;
-  background-image:url(images/tausta.jpg);
+  background-image: url(../images/tausta.jpg);
   background-size:cover;
   margin-bottom: 15px;
 }
