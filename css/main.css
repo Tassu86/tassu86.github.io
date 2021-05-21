@@ -4,16 +4,9 @@ body {
 
 }
 
-#nav
+.navbar-default
 {
 	background-color: #B1B17B;
-	font-size: 16px;
-	padding: 10px;
-  overflow: hidden;
-  text-align: center;
-  text-decoration: none;
-  margin-bottom: 70px;
-
 }
 
 a:hover {
@@ -52,7 +45,6 @@ p  {
 
 #name {
 	text-align:left;
-	
 }
 	
 
@@ -75,4 +67,11 @@ img {
 #lu
 {
 	margin-bottom:0;
+}
+
+footer {
+	position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
