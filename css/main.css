@@ -59,8 +59,7 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
-footer {
+.flex-grow {
+   flex: 1;
+}
 
-position: absolute;
-
-bottom: 0;
