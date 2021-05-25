@@ -59,9 +59,37 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
-.flex-grow {
-   flex: 1;
-}
+html,
+
 body {
-  min-height: 100vh; 
+
+height: 100%;
+
+position: relative;
+
+}
+
+
+
+
+app-root {
+
+min-height: 100%;
+
+display: block;
+
+position: relative;
+
+padding-bottom: 56px; // height of the footer
+
+}
+
+footer {
+
+position: absolute;
+
+bottom: 0;
+
+width: 100%;
+
 }
