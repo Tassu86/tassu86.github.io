@@ -59,37 +59,4 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
-html,
-
-body {
-
-height: 100%;
-
-position: relative;
-
-}
-
-
-
-
-app-root {
-
-min-height: 100%;
-
-display: block;
-
-position: relative;
-
-padding-bottom: 56px; // height of the footer
-
-}
-
-footer {
-
-position: absolute;
-
-bottom: 0;
-
-width: 100%;
-
-}
+.footer{ position:static}
